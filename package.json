@@ -1,0 +1,34 @@
+{
+  "name": "auto_chess_web",
+  "version": "0.0.1",
+  "description": "autochess web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/server.js",
+    "watch-server": "nodemon --watch 'Script/**/*' -e ts,tsx --exec 'ts-node' ./Script/server.ts"
+  },
+  "author": "pumpkye",
+  "license": "ISC",
+  "dependencies": {
+    "@types/kcors": "^2.2.3",
+    "kcors": "^2.2.2",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^4.43.2",
+    "sequelize-typescript": "^0.6.10",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-router": "^7.0.40",
+    "@types/sequelize": "^4.27.49"
+  }
+}
