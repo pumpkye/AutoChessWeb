@@ -20,7 +20,7 @@
     "mysql": "^2.17.1",
     "mysql2": "^1.6.5",
     "reflect-metadata": "^0.1.13",
-    "sequelize": "^4.43.2",
+    "sequelize": "^5.15.1",
     "sequelize-typescript": "^0.6.10",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
